@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/img"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true"
+    >
+    <ImageView
+        android:id="@+id/imgWeather"
+        android:layout_gravity="end"
+        android:layout_width="120dp"
+        android:layout_height="120dp"/>
+    <TextView
+        android:id="@+id/txtTemp"
+        android:layout_marginRight="10dp"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:textColor="#FAF6F6"
+        android:text="24 °C"/>
+    <TextView
+        android:id="@+id/txtDesc"
+        android:layout_margin="10dp"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#FAF6F6"
+        android:text="Miêu tả thời tiết"/>
+    <TextView
+        android:id="@+id/txtCity"
+        android:layout_marginRight="20dp"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thành phố"
+        android:textColor="#FAF6F6"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/txtTime"
+        android:layout_marginRight="10dp"
+        android:gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ngày giờ"
+        android:textColor="#FAF6F6"
+        android:textSize="15sp" />
+</LinearLayout>
